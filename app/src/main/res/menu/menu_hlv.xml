@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mnCauThu"
+        android:title="Cau Thu" />
+    <item
+        android:id="@+id/mnTranDau"
+        android:title="Tran Dau" />
+    <item
+        android:id="@+id/mnPhat"
+        android:title="Ti So" />
+    <item
+        android:id="@+id/mnThongKe"
+        android:title="Thong Ke" />
+    <item
+        android:id="@+id/mnDoiHinhRaSan"
+        android:title="Doi Hinh Ra San" />
+    <item
+        android:id="@+id/mnDoiHinhDuBi"
+        android:title="Doi Hinh Du Bi" />
+    <item
+        android:id="@+id/mnThoat"
+        android:title="Thoat" />
+</menu>

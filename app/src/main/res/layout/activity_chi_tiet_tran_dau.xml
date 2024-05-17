@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TranDau.ChiTietTranDau">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Quan Ly Tran Dau"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/edtmaTD_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Ma Tran Dau" />
+
+    <EditText
+        android:id="@+id/edtNgayThiDau_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Ngay Thi Dau" />
+
+    <EditText
+        android:id="@+id/edtDoiA_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Ma Doi A"
+        />
+    <EditText
+        android:id="@+id/edtDoiB_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Ma Doi B"
+        />
+    <EditText
+        android:id="@+id/edtTrongTai_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Trong Tai"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnCTXoa_TD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"/>
+
+        <Button
+            android:id="@+id/btnCTSua_TD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"/>
+
+        <Button
+            android:id="@+id/btnCTBack_TD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QuayLai"/>
+    </LinearLayout>
+</LinearLayout>

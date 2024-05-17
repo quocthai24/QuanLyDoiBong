@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyDoiBong"
+        tools:targetApi="31">
+        <activity
+            android:name=".ThongKe.TrangChuThongKe"
+            android:exported="false" />
+        <activity
+            android:name=".DoiBong.DanhSachCauThu"
+            android:exported="false" />
+        <activity
+            android:name=".TiSo.ThemTiSo"
+            android:exported="false" />
+        <activity
+            android:name=".TiSo.ChiTietTiSo"
+            android:exported="false" />
+        <activity
+            android:name=".TiSo.TrangChuTiSo"
+            android:exported="false" />
+        <activity
+            android:name=".TranDau.ChiTietTranDau"
+            android:exported="false" />
+        <activity
+            android:name=".TranDau.ThemTranDau"
+            android:exported="false" />
+        <activity
+            android:name=".TranDau.TrangChuTranDau"
+            android:exported="false" />
+        <activity
+            android:name=".DoiHinh.DoiHinhDuBi"
+            android:exported="false" />
+        <activity
+            android:name=".DoiHinh.DoiHinhRaSan"
+            android:exported="false" />
+        <activity
+            android:name=".CauThu.ThemCauThu"
+            android:exported="false" />
+        <activity
+            android:name=".CauThu.ChiTietCauThu"
+            android:exported="false" />
+        <activity
+            android:name=".CauThu.TrangChuCauThu"
+            android:exported="false" />
+        <activity
+            android:name=".HuanLuyenVien.XemDoiBong"
+            android:exported="false" />
+        <activity
+            android:name=".DoiBong.XemHLV"
+            android:exported="false" />
+        <activity
+            android:name=".HuanLuyenVien.ChiTietHLV"
+            android:exported="false" />
+        <activity
+            android:name=".HuanLuyenVien.ThemHLV"
+            android:exported="false" />
+        <activity
+            android:name=".HuanLuyenVien.TrangChuHLV"
+            android:exported="false" />
+        <activity
+            android:name=".DoiBong.ChiTietDoiBong"
+            android:exported="false" />
+        <activity
+            android:name=".DoiBong.ThemDoiBong"
+            android:exported="false" />
+        <activity
+            android:name=".DoiBong.TrangChuDoiBong"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentHLV"
+            android:exported="false" />
+        <activity
+            android:name=".FragmentChuTich"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

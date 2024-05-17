@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DoiBong.ChiTietDoiBong">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Quan Ly Doi Bong"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:background="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/edtmaDB_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Ma Doi Bong" />
+
+    <EditText
+        android:id="@+id/edtTenDB_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập Ten Doi Bong" />
+
+    <EditText
+        android:id="@+id/edtmaHLV_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập Ma HLV"
+        />
+    <EditText
+        android:id="@+id/edtSoThanhVien_chitiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Nhập So Thanh Vien"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Spinner
+            android:id="@+id/spGiaiDau_chitiet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/ivCTHinh"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnCTXoa_DB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"/>
+
+        <Button
+            android:id="@+id/btnCTSua_DB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"/>
+        <Button
+            android:id="@+id/btnXemHLV_DB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem HLV"/>
+        <Button
+            android:id="@+id/btnCTBack_DB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QuayLai"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnXemCauThu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xem Danh Sach Cau Thu Trong Doi"/>
+    </LinearLayout>
+</LinearLayout>
